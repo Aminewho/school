@@ -32,6 +32,6 @@ services:
     ports:
       - "8585:58"
     depends_on:
-      - app-school-backend
+      - app-backend
 volumes:
   db :
